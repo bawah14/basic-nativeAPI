@@ -1,4 +1,5 @@
-<?php 
+<?php
+header('Access-Control-Allow-Origin: *');
 require_once '../config/db.php';
 $db = new db();
 $table = "units";
